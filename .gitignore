@@ -129,7 +129,7 @@ dist
 .pnp.*
 .yarn/*
 !.yarn/patches
-!.yarn/plugins
+!.yarn/pluginsdraganddrop.html
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
@@ -137,3 +137,5 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+.DS_Store
