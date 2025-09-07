@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <style>
+        label {
+            font-family: sans-serif;
+            font-size: 1rem;
+            padding-right: 10px;
+        }
+
+        select {
+            font-size: 0.9rem;
+            padding: 2px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2><a style="color:crimson;text-decoration: underline;" target="_self" href="index.html">Pixel Pals PCC HTML
+            Elements</a> </h2>
+    <p>A <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank">select</a> with
+        drop-down list.</p>
+    <form action="httpbin.org/get" method="post">
+        <label for="pet-select">Choose a pet:</label>
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+        <select name="coffee" id="coffee" multiple size="5">
+            <optgroup label="Coffees">
+                <option value="regular coffee">Regular Coffee</option>
+                <option value="iced coffee">Iced Coffee</option>
+            </optgroup>
+            <optgroup label="Espresso Drinks">
+                <option value="latter" selected>Lattee</option>
+                <option value="cappucino">Cappucino</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano</option>
+            </optgroup>
+            <option value="other">Other</option>
+        </select>
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <p>Notice how the id in the select tag is the same as the for attribute in the label tag?</p>
+</body>
+
+<!-- Test the form submission by setting the action="httpbin.org", finally change to your actual destination such as "/action.php"-->
+<!-- <fieldset> <legend> <datalist> -->
+</html>
