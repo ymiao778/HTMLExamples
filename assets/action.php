@@ -1,0 +1,1 @@
+<!-- There are a variety of ways to send data to a server. Here, this will be dynamic programming code -->
